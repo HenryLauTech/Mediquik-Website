@@ -9,12 +9,12 @@
 }
 
 body {
-    background-color:rgb(0, 132, 255);
+    background-color:white;
 }
 
 header {
     margin-top:35px;
-    background-color:white;
+    background-color:aquamarine;
 }
 
 .navbuttons {
@@ -34,4 +34,24 @@ nav {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
+}
+
+
+
+
+
+/* CHANGES AFTER THIS LINE ARE FOR INDEX*/
+
+#call-to-action {
+    background-color:cornflowerblue;
+    border-radius: 20px;
+    position:absolute;
+    left:150px;
+    top:20%;
+    font-size: 35px;
+    padding: 10px;
+}
+
+.smaller {
+    font-size:27px;
 }
