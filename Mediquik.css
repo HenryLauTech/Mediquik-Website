@@ -21,7 +21,7 @@ header {
     background-color: rgb(5, 202, 5);
     text-align: center;
     padding: 10px;
-    border: 2px cyan solid;
+    border: 2px rgb(0, 132, 255) solid;
     border-radius: 20px;
     font-size: 20px;
     cursor: pointer;
