@@ -55,3 +55,10 @@ nav {
 .smaller {
     font-size:27px;
 }
+
+#homepage-pill-image {
+    left:98%;
+    top:25%;
+    position: absolute;
+    scale: 75%;
+}
