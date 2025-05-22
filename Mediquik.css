@@ -1,3 +1,4 @@
+
 * {
     margin:0px;
 }
@@ -18,13 +19,14 @@ header {
 }
 
 .navbuttons {
-    background-color: rgb(5, 202, 5);
+    background-color:darkslateblue;
     text-align: center;
     padding: 10px;
     border: 2px rgb(0, 132, 255) solid;
     border-radius: 20px;
     font-size: 20px;
     cursor: pointer;
+    color:white;
 }
 
 nav {
@@ -36,11 +38,46 @@ nav {
     gap: 10px;
 }
 
+footer {
+    position:absolute;
+    bottom:0%;
+    background-color: aliceblue;
+    height:130px;
+    width:100%;
+}
+
+.footerimg {
+    scale:40%;
+    padding:0px;
+    bottom:90px;
+    position: relative;
+}
+
+.smaller {font-size:27px;}
 
 
 
+/*     IDs     */
+#product-service {
+    background-color:cornflowerblue;
+    border-radius: 20px;
+    position:absolute;
+    left:150px;
+    top:20%;
+    font-size: 35px;
+    padding: 10px;
+    max-width: 600px;
+}
 
-/* CHANGES AFTER THIS LINE ARE FOR INDEX*/
+#homepage-pill-image {
+    left:72%;
+    top:35%;
+    position: absolute;
+    scale: 180%;
+}
+
+#caption1 {position:absolute; bottom:30px; left:14%;}
+#caption2 {position:absolute; bottom:30px; right:15%;}
 
 #call-to-action {
     background-color:cornflowerblue;
@@ -50,15 +87,7 @@ nav {
     top:20%;
     font-size: 35px;
     padding: 10px;
+    max-width: 600px;
 }
 
-.smaller {
-    font-size:27px;
-}
-
-#homepage-pill-image {
-    left:98%;
-    top:25%;
-    position: absolute;
-    scale: 75%;
-}
+#productneedleimg {right:25%; top:35%; position:absolute; scale:250%}
