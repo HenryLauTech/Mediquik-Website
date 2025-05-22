@@ -91,3 +91,15 @@ footer {
 }
 
 #productneedleimg {right:25%; top:35%; position:absolute; scale:250%}
+
+#contactinfo {
+    background-color:cornflowerblue;
+    border-radius: 20px;
+    position:absolute;
+    left: 50%;
+    top:50%;
+    font-size: 45px;
+    padding: 10px;
+    max-width: 600px;
+    transform: translate(-50%, -50%);
+}
