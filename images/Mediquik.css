@@ -55,7 +55,7 @@ footer {
 
 .smaller {font-size:27px;}
 
-.header {font-size:27px;}
+
 
 /*     IDs     */
 #product-service {
@@ -69,11 +69,11 @@ footer {
     max-width: 600px;
 }
 
-#homepage-image {
-    left:74%;
+#homepage-pill-image {
+    left:72%;
     top:35%;
     position: absolute;
-    scale: 200%;
+    scale: 180%;
 }
 
 #caption1 {position:absolute; bottom:30px; left:14%;}
@@ -102,45 +102,4 @@ footer {
     padding: 10px;
     max-width: 600px;
     transform: translate(-50%, -50%);
-}
-
-#heal-img {
-    left:40%;
-    top:31%;
-    position:absolute;
-}
-
-#side-effects1 {
-    width: 500px;
-    margin: 0 auto;
-    font-size: 20px;
-    margin-top: 20px;
-    margin-left: 38%;
-    background-color:cornflowerblue;
-    border-radius: 20px;
-    padding:30px;
-    position:absolute;
-}
-
-#side-effects2 {
-    width: 500px;
-    margin: 0 auto;
-    font-size: 20px;
-    margin-top: 20px;
-    margin-left: 65%;
-    background-color:cornflowerblue;
-    border-radius: 20px;
-    padding:30px;
-    position:relative;
-}
-
-#info {
-    position: absolute;
-    left:6%;
-    top:130px;
-    max-width: 400px;
-    background-color:cornflowerblue;
-    border-radius: 20px;
-    padding:20px;
-    font-size: 25px;
 }
